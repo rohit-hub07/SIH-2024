@@ -203,7 +203,7 @@ section{
 .header .flex .profile{
    position: absolute;
    top:120%; right: 2rem;
-   background-color: var(--white);
+   background-color: pink;
    border-radius: .5rem;
    padding: 1.5rem;
    text-align: center;
@@ -279,6 +279,7 @@ section{
 .side-bar .profile{
    padding:3rem 2rem;
    text-align: center;
+   background-color: blanchedalmond;
 }
 
 .side-bar .profile .image{
@@ -1373,4 +1374,105 @@ section{
       height: 25rem;
    }
 
+}
+
+
+/* New styles */
+
+.studName, .studMessage, .studEmail, .studSubject, .studId {
+   font-size: 20px;
+}
+
+.contact-form {
+   max-width: 600px;
+   margin: auto;
+   padding: 20px;
+   background-color: #f9f9f9;
+   border-radius: 8px;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form h2 {
+   text-align: center;
+   margin-bottom: 20px;
+   color: #333;
+}
+
+.contact-form .input-box {
+   margin-bottom: 15px;
+}
+
+.contact-form .input-box label {
+   display: block;
+   margin-bottom: 5px;
+   font-weight: bold;
+   color: #333;
+}
+
+.contact-form .input-box input,
+.contact-form .input-box textarea {
+   width: 100%;
+   padding: 10px;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+   background-color: #fff;
+   font-size: 16px;
+   color: #333;
+}
+
+.contact-form .input-box input:focus,
+.contact-form .input-box textarea:focus {
+   border-color: #3498db;
+   outline: none;
+   box-shadow: 0 0 5px rgba(52, 152, 219, 0.3);
+}
+
+.contact-form .btn {
+   display: inline-block;
+   background-color: #3498db;
+   color: #fff;
+   padding: 10px 20px;
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
+   font-size: 16px;
+   transition: background-color 0.3s ease;
+   text-align: center;
+   width: 100%;
+   margin-top: 10px;
+}
+
+.contact-form .btn:hover {
+   background-color: #2980b9;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+   .contact-form {
+      padding: 15px;
+   }
+}
+
+/* Additional layout improvements */
+.about .content {
+   flex: 1;
+   padding: 20px;
+}
+
+.about .row {
+   display: flex;
+   align-items: center;
+   flex-wrap: wrap;
+   gap: 20px;
+}
+
+.about .image {
+   flex: 1;
+   text-align: center;
+}
+
+.about .image img {
+   max-width: 100%;
+   height: auto;
+   border-radius: 8px;
 }
