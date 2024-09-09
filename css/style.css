@@ -279,7 +279,7 @@ section{
 .side-bar .profile{
    padding:3rem 2rem;
    text-align: center;
-   background-color: blanchedalmond;
+   background-color: rgb(62, 60, 62);
 }
 
 .side-bar .profile .image{
@@ -292,7 +292,7 @@ section{
 
 .side-bar .profile .name{
    font-size: 2rem;
-   color:var(--black);
+   color:#1c2025;
    overflow: hidden;
    text-overflow: ellipsis;
    white-space: nowrap;
@@ -1166,7 +1166,7 @@ section{
 
 .contact .row form{
    flex: 1 1 30rem;
-   background-color: var(--white);
+   background-color: #1e1515;
    padding: 2rem;
    text-align: center;
 }
@@ -1174,7 +1174,7 @@ section{
 .contact .row form h3{
    margin-bottom: 1rem;
    text-transform: capitalize;
-   color:var(--black);
+   color:#e2d9d9;
    font-size: 2.5rem;
 }
 
@@ -1387,7 +1387,7 @@ section{
    max-width: 600px;
    margin: auto;
    padding: 20px;
-   background-color: #f9f9f9;
+   background-color: #1e1515;
    border-radius: 8px;
    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -1406,7 +1406,7 @@ section{
    display: block;
    margin-bottom: 5px;
    font-weight: bold;
-   color: #333;
+   color: #b7b0b0;
 }
 
 .contact-form .input-box input,
@@ -1415,7 +1415,7 @@ section{
    padding: 10px;
    border: 1px solid #ccc;
    border-radius: 4px;
-   background-color: #fff;
+   background-color: #1e1515;
    font-size: 16px;
    color: #333;
 }
